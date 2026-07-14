@@ -1,0 +1,341 @@
+/* ==========================
+   Global CSS
+========================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Times New Roman', serif;
+}
+
+body{
+    background:white;
+    padding:8px;
+}
+
+/* ==========================
+   Heading
+========================== */
+
+.heading{
+    width:100%;
+    height:45px;
+    background:linear-gradient(to right, red, green, yellow);
+    text-align:center;
+    border:2px solid black;
+}
+
+.heading h1{
+    font-size:28px;
+    text-decoration:underline;
+    line-height:40px;
+}
+
+/* ==========================
+   Navigation
+========================== */
+
+.navbar{
+    width:750px;
+    margin:15px auto;
+    background:#7fffd4;
+    border:3px solid red;
+    border-radius:15px;
+    padding:12px;
+}
+
+.navbar ul{
+    width:200px;
+    margin:auto;
+}
+
+.navbar li{
+    font-size:20px;
+    font-weight:bold;
+    margin:5px 0;
+}
+
+/* ==========================
+   Offer Section
+========================== */
+
+.offer-section{
+
+    width:100%;
+    min-height:250px;
+
+    background:#7fffd4;
+
+    border:2px solid black;
+
+    border-radius:15px;
+
+    display:flex;
+
+    justify-content:space-evenly;
+
+    flex-wrap:wrap;
+
+    padding:15px;
+}
+
+.offer-box{
+
+    width:31%;
+
+    height:90px;
+
+    background:#6cf3ff;
+
+    border:2px solid green;
+
+    border-radius:15px;
+
+    text-align:center;
+
+    font-weight:bold;
+
+    padding:10px;
+
+    margin-bottom:15px;
+}
+
+.last-box{
+
+    width:31%;
+}
+
+/* ==========================
+   Performer Heading
+========================== */
+
+.performer-heading{
+
+    width:100%;
+
+    margin-top:20px;
+
+    background:linear-gradient(to right, red, yellow);
+
+    text-align:center;
+
+    border:2px solid black;
+}
+
+.performer-heading h1{
+
+    font-size:28px;
+
+    text-decoration:underline;
+
+    padding:5px;
+}
+
+/* ==========================
+   Performer Section
+========================== */
+
+.performer-section{
+
+    margin-top:20px;
+
+    width:100%;
+
+    height:260px;
+
+    background:radial-gradient(circle, blue, cyan, green);
+
+    border:2px solid green;
+
+    display:flex;
+
+    justify-content:space-evenly;
+
+    align-items:center;
+}
+
+.student{
+
+    width:220px;
+
+    height:170px;
+
+    background:#fff06a;
+
+    border:2px solid red;
+
+    border-radius:18px;
+
+    text-align:center;
+
+    color:brown;
+
+    padding-top:15px;
+}
+
+.student h2{
+
+    text-decoration:underline;
+
+    margin-bottom:20px;
+}
+
+.student h3{
+
+    margin-bottom:18px;
+
+    text-decoration:underline;
+}
+
+/* ==========================
+   Career Grid
+========================== */
+
+.career-grid{
+    width:1300px;
+    margin:20px 0 0 20px;
+
+    border:2px solid black;
+    padding:6px;
+
+    display:grid;
+
+    grid-template-columns:360px 360px 360px 200px;
+
+    grid-template-rows:
+    50px
+    120px
+    170px
+    45px;
+
+    gap:4px;
+}
+
+/* ==========================
+   Title
+========================== */
+
+.career-title{
+    grid-column:1/5;
+
+    background:red;
+    color:white;
+
+    text-align:center;
+    font-size:28px;
+    font-weight:bold;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+/* ==========================
+   Common Boxes
+========================== */
+
+.box{
+
+    color:white;
+
+    font-size:25px;
+
+    font-weight:bold;
+
+    padding:10px;
+}
+
+/* Green */
+
+.green{
+
+    background:#5ad35a;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    text-align:center;
+}
+
+/* Sky */
+
+.sky{
+
+    background:#58c8ff;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    text-align:center;
+}
+
+/* Blue */
+
+.blue{
+
+    background:#233dff;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+/* Black */
+
+.black{
+    background:black;
+
+    grid-column:4;
+    grid-row:2/4;
+
+    color:white;
+
+    padding-left:12px;
+}
+
+.black ol{
+
+    padding-left:22px;
+}
+
+.black li{
+
+    margin-bottom:14px;
+
+    color:white;
+   font-size:16px;
+   line-height:1.4;
+    text-decoration:underline;
+}
+
+/* Orange */
+
+.orange{
+    background:darkorange;
+
+    grid-column:1/4;
+    grid-row:3;
+    padding:12px;
+    color:white;
+    font-size:18px;
+    font-weight:bold;
+    line-height:1.5;
+}
+
+/* ==========================
+   Footer
+========================== */
+
+.footer{
+    grid-column:1/5;
+
+    background:#4fdde0;
+
+    text-align:center;
+
+    font-size:26px;
+    font-weight:bold;
+
+     display:flex;
+    justify-content:center;
+    align-items:center;
+}

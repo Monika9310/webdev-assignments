@@ -1,0 +1,59 @@
+body{
+    margin:20px;
+    font-family:"Times New Roman", serif;
+}
+
+h1{
+    color:red;
+    font-size:60px;
+    font-weight:bold;
+}
+
+h2{
+    color:limegreen;
+    font-size:45px;
+    font-style:italic;
+}
+
+ol{
+    font-size:22px;
+    line-height:1.7;
+}
+
+mark{
+    background:yellow;
+    font-weight:bold;
+}
+
+.list{
+    color:brown;
+    font-size:22px;
+    letter-spacing:5px;
+}
+
+.list li{
+    margin-bottom:15px;
+}
+
+.para{
+    color:brown;
+    font-size:24px;
+}
+
+.small{
+    color:brown;
+    font-size:16px;
+}
+
+.italic{
+    color:brown;
+    font-size:24px;
+    font-style:italic;
+}
+
+a{
+    background:yellow;
+    color:brown;
+    font-size:22px;
+    text-decoration:underline;
+}
